@@ -1,0 +1,173 @@
+body{
+    max-width: 500px;
+    font-family: var(--font-outfit);
+    color: var(--Stone-600);
+    font-weight: 400;
+}
+
+h2{
+    font-family: var(--font-young);
+    color: var(--Brown-800);
+    font-weight: 400;
+}
+
+.card{
+    width: 100%;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card div{
+    margin: 20px;
+    padding: 20px;
+}
+
+.card h1{
+    margin-bottom: 20px;
+    font-family: var(--font-young);
+    font-weight: 400;
+    color: #000000;
+}
+
+.card .description{
+    margin-bottom: 30px;
+}
+
+.card .preparation_time{
+
+    background-color: var(--Rose-50);
+    padding: 30px 40px;
+    margin-bottom: 30px;
+}
+
+.card .preparation_time h3{
+    color: var( --Rose-800);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+.card .preparation_time span{
+    font-weight: 600;
+}
+
+.card .preparation_time li{
+    display: flex;
+    align-items: center;
+}
+
+.card .preparation_time li div{
+    margin: 5px;
+    padding: 0;
+}
+
+.card .preparation_time li::before{
+    content: "•";
+    color: var( --Rose-800);
+    font-size: 20px;
+
+    margin-right: 10px;
+}
+
+
+.card .ingredients{
+    margin-bottom: 20px;
+}
+.card .ingredients h2{
+    margin-bottom: 10px;
+}
+
+.card .ingredients ul li{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.card .ingredients li::before{
+    content: "•";
+    color: var(--Brown-800);
+    font-size: 20px;
+
+    margin-right: 20px;
+}
+
+
+.card .insctructions{
+    margin: 20px 0;
+
+}
+
+.card .insctructions ol{
+    margin-top: 20px;
+    padding-left: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+.card .insctructions ol li{
+    position: relative;
+    margin-left: 5px;
+    padding-left: 15px;
+}
+
+.card .insctructions li::marker{
+    color: var(--Brown-800);
+}
+
+.card .insctructions li::before{
+    position: absolute;
+    
+
+}
+
+.card .insctructions span{
+    font-weight: 600;
+}
+
+.nutrition{
+    margin-top: 20px;
+}
+
+.nutrition p{
+    margin: 20px 0;
+}
+
+.nutrition table{
+    width: 100%;
+    border-collapse: collapse;
+    position: relative;
+
+}
+
+.nutrition table td{
+    padding: 16px 8px;
+
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.nutrition table tr:last-child td{
+    border-bottom: none;
+}
+
+.nutrition table .info{
+    padding-left: 30px;    
+}
+
+.nutrition table .value{
+    color: var(--Brown-800);
+    font-weight: 600;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
